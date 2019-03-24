@@ -128,6 +128,20 @@
   revision = "52158e4697b87de16ed390e1bdaf813e581008fa"
 
 [[projects]]
+  branch = "master"
+  digest = "1:2e275cf8f13c176f237a87777b5ef029e09c776bedcabba97927ea9373fb8929"
+  name = "github.com/cosmos/sdk-application-tutorial"
+  packages = [
+    ".",
+    "x/nameservice",
+    "x/nameservice/client",
+    "x/nameservice/client/cli",
+    "x/nameservice/client/rest",
+  ]
+  pruneopts = "UT"
+  revision = "3616d9384466d2277aa5e230c8ab76a92dd1a2a9"
+
+[[projects]]
   digest = "1:ffe9824d294da03b391f44e1ae8281281b4afc1bdaa9588c9097785e3af10cec"
   name = "github.com/davecgh/go-spew"
   packages = ["spew"]
@@ -765,6 +779,11 @@
     "github.com/cosmos/cosmos-sdk/x/bank/client/rest",
     "github.com/cosmos/cosmos-sdk/x/params",
     "github.com/cosmos/cosmos-sdk/x/staking",
+    "github.com/cosmos/sdk-application-tutorial",
+    "github.com/cosmos/sdk-application-tutorial/x/nameservice",
+    "github.com/cosmos/sdk-application-tutorial/x/nameservice/client",
+    "github.com/cosmos/sdk-application-tutorial/x/nameservice/client/cli",
+    "github.com/cosmos/sdk-application-tutorial/x/nameservice/client/rest",
     "github.com/gorilla/mux",
     "github.com/spf13/cobra",
     "github.com/spf13/viper",
